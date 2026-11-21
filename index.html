@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Klara App Privacy Policy">
     <title>Privacy Policy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        /* System fonts only: no font is loaded from third-party servers, so visiting this page sends no data to them. */
         body {
-            font-family: 'Hind', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-weight: 400;
-            margin: 0;
+            margin: 0 auto;
+            max-width: 760px;
             padding: 20px;
             line-height: 1.6;
             color: #333;
@@ -23,7 +24,7 @@
         }
         h2 {
             font-size: 1.5em;
-            margin-top: 20px;
+            margin-top: 28px;
         }
         h3 {
             font-size: 1.2em;
@@ -39,63 +40,88 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> 27/Jan/2025</p>
-    <p>Klara (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we process user data in compliance with the General Data Protection Regulation (GDPR) and Apple’s App Store privacy requirements.</p>
-    
-    <h2>1. Data We Process</h2>
-    <h3>1.1. Photos</h3>
+    <p><strong>Effective Date:</strong> 21/Nov/2026 (applies from Klara version 1.3.1)</p>
+    <p>Klara (“we,” “our,” or “us”) is an analog film camera app by Level11 di Alessandro Lisi. This Privacy Policy explains what data the app processes, why, and your rights under the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA) and Apple’s App Store requirements.</p>
+    <p><strong>In short:</strong> your photos never leave your device. The app has no accounts, no ads and no tracking. To improve the app we collect anonymous usage and diagnostic data through TelemetryDeck, a privacy-focused analytics service based in the European Union.</p>
+
+    <h2>1. Data Controller</h2>
+    <p>The controller responsible for the processing described in this policy is:<br>Level11 di Alessandro Lisi<br>Via Martiri della Libertà 8, 20065 Inzago (MI), Italy<br>Email: <a href="mailto:info@level11.software">info@level11.software</a></p>
+
+    <h2>2. Data Processed on Your Device</h2>
+    <h3>2.1. Photos</h3>
     <ul>
-        <li><strong>What We Access:</strong> The app uses your device camera to capture photos within the app.</li>
-        <li><strong>What Happens to Your Photos:</strong> Photos are processed locally on your device. After processing, the resulting image is saved directly to your device’s gallery.</li>
-        <li><strong>Storage:</strong> We do not store or transmit your photos to any server or external service. All processing occurs on your device.</li>
+        <li><strong>Camera:</strong> the app uses your camera to take photos inside the app.</li>
+        <li><strong>Analog Lab:</strong> you can pick photos with the system photo picker. The app receives only the photos you select; it cannot browse your library.</li>
+        <li><strong>Processing:</strong> all film emulation runs locally on your device. The result is saved to your photo library with the “add photos only” permission: the app can add photos but cannot read your library.</li>
+        <li><strong>Photo metadata:</strong> saved photos keep the capture details (date, exposure, lens) and the name of the film used. Location (GPS) data is removed.</li>
+        <li><strong>No upload:</strong> we never upload, store or transmit your photos, their content or their metadata to any server.</li>
     </ul>
-    
-    <h3>1.2. App Settings</h3>
+    <h3>2.2. App Data Stored Locally</h3>
+    <p>The app stores on your device, in the standard iOS app storage: your settings, the film loaded in the camera and the progress of the current roll, a counter used to name your photos, the date of first launch, which tips you have already seen, and a cached copy of your subscription status. This data stays on your device and is removed when you delete the app.</p>
+
+    <h2>3. Anonymous Usage Analytics (TelemetryDeck)</h2>
+    <p>To understand how Klara is used and to improve it, the app sends usage and diagnostic signals to TelemetryDeck (TelemetryDeck GmbH, Von-der-Tann-Str. 54, 86159 Augsburg, Germany), which processes them on our behalf on servers located in the European Union.</p>
+    <h3>3.1. What is sent</h3>
     <ul>
-        <li><strong>Stored Locally:</strong> The app saves the name of the currently selected film emulation roll locally on your device’s default iOS storage. This data is not personal and is only used to provide a seamless user experience.</li>
+        <li><strong>Product interaction:</strong> which screens and features you use (for example: a film loaded, a photo taken, a roll finished, a picture saved in the Lab, settings and controls used), with counters and durations.</li>
+        <li><strong>Purchases:</strong> subscription events and their outcome (for example: plan viewed or chosen, purchase completed or cancelled, free trial started, subscription renewed or expired), the product, its price converted to US dollars and the App Store country. Payments are handled by Apple; we never receive your payment details.</li>
+        <li><strong>Performance and diagnostics:</strong> processing times and technical error codes.</li>
+        <li><strong>Device and app information:</strong> device model, iOS version, app version, language, region, time zone and accessibility settings.</li>
+        <li><strong>Permission status:</strong> whether camera and photo access are allowed (never the photos themselves).</li>
+        <li><strong>An anonymous installation identifier:</strong> derived from Apple’s per-app device identifier and hashed on your device before sending (and hashed again by TelemetryDeck). It is the same for one installation of Klara, is not shared with other apps, and is not linked to your name, email, Apple ID or any other personal information.</li>
+    </ul>
+    <h3>3.2. What is never sent</h3>
+    <ul>
+        <li>Your photos, their content, location or metadata, file names or any text you type.</li>
+        <li>Your name, email address, contacts or Apple ID.</li>
+        <li>Your IP address is not stored by TelemetryDeck, neither in its database nor in its logs.</li>
+        <li>No cookies, no advertising identifier (IDFA) and no tracking across other companies’ apps or websites.</li>
+    </ul>
+    <h3>3.3. Purpose and legal basis</h3>
+    <p>We use this data only for statistics: to understand which features are used, to find errors and slow steps, and to plan improvements. It is not used for advertising, profiling or tracking, and it is not combined with data from other sources. The legal basis is our legitimate interest in improving and maintaining the app (Art. 6(1)(f) GDPR). Because the data is anonymized and cannot be linked to you, the impact on your privacy is minimal.</p>
+    <h3>3.4. Retention</h3>
+    <p>Analytics data is kept by TelemetryDeck in anonymized form for statistical purposes. Since it cannot be linked to a person, it cannot be retrieved or deleted for an individual user. More information: <a href="https://telemetrydeck.com/privacy">telemetrydeck.com/privacy</a> and <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">TelemetryDeck Privacy FAQ</a>.</p>
+
+    <h2>4. Permissions</h2>
+    <ul>
+        <li><strong>Camera:</strong> to take photos inside the app.</li>
+        <li><strong>Photos (add only):</strong> to save your developed photos to your library.</li>
+    </ul>
+    <p>You can change these permissions at any time in the iOS Settings app.</p>
+
+    <h2>5. Purchases and Subscriptions</h2>
+    <p>Subscriptions are sold and billed by Apple through the App Store, under Apple’s terms and privacy policy. The app checks your subscription status on your device with Apple’s StoreKit. You can manage or cancel your subscription in your Apple ID settings.</p>
+
+    <h2>6. Data Sharing</h2>
+    <ul>
+        <li>We do not sell or share your personal data, and we do not share any data for advertising (this also applies under the CCPA).</li>
+        <li>Anonymous analytics are processed only by TelemetryDeck, on our behalf and within the European Union.</li>
+        <li>Purchases are processed by Apple as described in section 5.</li>
+    </ul>
+    <p>The app contains no advertising and no ad networks.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>Under the GDPR you have the right to access, rectify and erase your personal data, to restrict or object to its processing, and to data portability. You can also lodge a complaint with a data protection supervisory authority, in particular in the EU country where you live.</p>
+    <ul>
+        <li><strong>Photos and app data:</strong> they stay on your device; you can delete them at any time, or remove all app data by deleting the app.</li>
+        <li><strong>Analytics:</strong> the data is anonymized and cannot be linked to you, so we are unable to identify, export or delete the data of a specific user. Deleting the app stops all data collection.</li>
+        <li>For any request or question, contact us at <a href="mailto:info@level11.software">info@level11.software</a>.</li>
     </ul>
 
-    <h2>2. Permissions Required</h2>
-    <p>To provide functionality, the app requires the following permissions:</p>
-    <ul>
-        <li><strong>Camera:</strong> To capture photos within the app.</li>
-        <li><strong>Gallery/Storage:</strong> To save processed photos directly to your device’s gallery.</li>
-    </ul>
-
-    <h2>3. User Identification</h2>
-    <p>We do not require you to provide any personally identifiable information (e.g., email address, username, or other identifiers). The app does not include user accounts, sign-ups, or logins.</p>
-    
-    <h3>3.2 User Data Deletion</h3>
-    <p>Users can exercise their right to delete their data by simply uninstalling the Klara app from their device. When the app is deleted, all locally stored data will be permanently removed.</p>
-    
-    <h2>4. Third-Party Services</h2>
-    <p>No Third-Party Analytics or Ads: This app does not use third-party analytics, ad networks, or any external services that collect user data.</p>
-    
-    <h2>5. Data Sharing</h2>
-    <p>No Sharing: We do not share, sell, or transfer your photos, settings, or any other data to any third party.</p>
-    
-    <h2>6. Your Rights</h2>
-    <p>As a user under the GDPR, you have the following rights:</p>
-    <ul>
-        <li>Access and Information: Since the app does not collect or store your personal data, there is no personal information to access or modify.</li>
-        <li>Erasure: The app does not store personal data, so there is no data to delete.</li>
-    </ul>
-    
-    <h2>7. Global Compliance</h2>
-    <p>This app adheres to privacy principles applicable globally, including GDPR and CCPA.</p>
-
-    <h2>8. User Support</h2>
-    <p>If you have questions, contact us:</p>
-    <ul>
-        <li><strong>Email:</strong> info@level11.software</li>
-        <li><strong>Website:</strong> level11.software</li>
-        <li><strong>Instagram:</strong> <a href="https://klara.level11.software">klara.level11.software</a></li>
-    </ul>
+    <h2>8. Children</h2>
+    <p>Klara is not directed at children under 13 (or the minimum age required in your country) and does not knowingly collect personal data from them.</p>
 
     <h2>9. Security</h2>
-    <p>All processing occurs locally on your device, ensuring your data remains secure.</p>
+    <p>Photos are processed locally on your device. Analytics are sent over encrypted connections (HTTPS) and contain no personal information.</p>
 
-    <h2>10. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy periodically. Changes will include a revised “Effective Date.”</p>
+    <h2>10. Contact</h2>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:info@level11.software">info@level11.software</a></li>
+        <li><strong>Website:</strong> <a href="https://level11.software">level11.software</a></li>
+        <li><strong>Instagram:</strong> <a href="https://instagram.com/shotonklara">@shotonklara</a></li>
+    </ul>
+
+    <h2>11. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy when the app changes. Every change will show a new Effective Date at the top of this page.</p>
 </body>
 </html>
